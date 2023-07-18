@@ -15,7 +15,7 @@ public class Utils {
     static WebDriver createDriver() {
         //chromeOptions.addArguments("--headless", "--window-size=1920,1080");
         //chromeOptions.addArguments("--no-sandbox");
-        chromeOptions.addArguments("--disable-dev-shm-usage");
+        //chromeOptions.addArguments("--disable-dev-shm-usage");
         return new ChromeDriver(chromeOptions);
     }
 
