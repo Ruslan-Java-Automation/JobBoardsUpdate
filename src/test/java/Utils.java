@@ -13,8 +13,8 @@ import java.util.Properties;
 public class Utils {
     private static final ChromeOptions chromeOptions = new ChromeOptions();
     static WebDriver createDriver() {
-        chromeOptions.addArguments("--headless", "--window-size=1920,1080");
-        chromeOptions.addArguments("--no-sandbox");
+        //chromeOptions.addArguments("--headless", "--window-size=1920,1080");
+        //chromeOptions.addArguments("--no-sandbox");
         chromeOptions.addArguments("--disable-dev-shm-usage");
         return new ChromeDriver(chromeOptions);
     }
