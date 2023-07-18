@@ -2,3 +2,4 @@
 target/
 debug.log
 screenshots/
+resources/local.properties
